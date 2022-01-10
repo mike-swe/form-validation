@@ -1,0 +1,174 @@
+html {
+  font-size: 100%;
+  line-height: 1;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #e6e6e6;
+  color: #005c2e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, p {
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+input, a, button, textarea {
+  border: none;
+  outline: none;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-container {
+  display: none;
+  background: transparent;
+  -webkit-transform: translateY(7rem);
+          transform: translateY(7rem);
+}
+
+#CloseBtn {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  -webkit-transform: translateX(19rem) translateY(2rem);
+          transform: translateX(19rem) translateY(2rem);
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.modal {
+  background: #5bd27f;
+  color: white;
+  text-align: center;
+  padding: 4em;
+  border-radius: .5rem;
+}
+
+h1 {
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+p {
+  font-family: sans-serif;
+  margin: .2rem;
+  line-height: 2rem;
+}
+
+a {
+  background: rgba(255, 255, 255, 0.521);
+  color: #063c21;
+  text-align: center;
+  text-decoration: none;
+  margin: .3rem;
+  padding: .2rem 2.5rem;
+  border-radius: 2rem;
+}
+
+a:hover {
+  background: white;
+}
+
+.dits {
+  line-height: 19px;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1.5px solid #063c21;
+  padding: 8vh 4vw;
+}
+
+.form-heading {
+  -webkit-transform: translateY(-2rem);
+          transform: translateY(-2rem);
+  text-transform: unset;
+  font-variant: unset;
+  font-size: 1.2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input, textarea {
+  background: transparent;
+  color: #118333;
+  border: 1.5px solid #063c21;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  width: 16rem;
+  padding: .8em 2em;
+}
+
+input::-webkit-input-placeholder {
+  color: #118333;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+input:-ms-input-placeholder {
+  color: #118333;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+input::-ms-input-placeholder {
+  color: #118333;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+input::placeholder {
+  color: #118333;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+textarea {
+  height: 4rem;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: .8rem 1.8rem;
+}
+
+button {
+  background: white;
+  color: #063c21;
+  -webkit-transform: translateX(0.5rem);
+          transform: translateX(0.5rem);
+  margin: 1rem 0;
+  padding: 1rem 6rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+button:hover {
+  background: #063c21;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/style.css">
+    <script src="./main.js"></script>
+    <title>Modal Part 2</title>
+</head>
+<body>
+    <main>
+        <form onsubmit="return userAuth()">
+            <p class="form-heading">
+                Report an Issue
+            </p>
+            <input type="text" name="name" id="name" placeholder="Name"><br><br>
+            <input type="text" name="email" id="email" placeholder="Email"><br><br>
+            <textarea name="message" id="message" cols="10" rows="10" placeholder="What went wrong "></textarea><br><br>
+            <button type="submit" id="ModalShow">SUBMIT</button>
+        </form>
+        <div class="modal-container" id="modal">
+            <div id="CloseBtn">&times;</div>
+            <div class="modal">
+                <h1>Message Sent</h1><br>
+                <p>Your message has been <br> sent successfully</p><br><br>
+                <a href="#" id="exitBtn"  onclick="BtnToggle()">Exit</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
